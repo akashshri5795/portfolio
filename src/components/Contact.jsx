@@ -34,6 +34,8 @@ export default function Contact() {
             <a href={profile.links.github} className="hover:text-signal transition-colors">GitHub</a>
             <a href={profile.links.linkedin} className="hover:text-signal transition-colors">LinkedIn</a>
             <a href={profile.links.hackerrank} className="hover:text-signal transition-colors">HackerRank</a>
+            <a href={profile.links.leetcode} className="hover:text-signal transition-colors">LeetCode</a>
+            <a href={profile.links.website} className="hover:text-signal transition-colors">Website</a>
           </div>
         </div>
       </div>
