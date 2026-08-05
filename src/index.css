@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background: rgba(52, 231, 180, 0.25);
+  color: #E7EDF3;
+}
+
+/* subtle blueprint grid, used behind the hero */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(199, 208, 218, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(199, 208, 218, 0.05) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+:focus-visible {
+  outline: 2px solid #34E7B4;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0E13;
+}
+::-webkit-scrollbar-thumb {
+  background: #232E3A;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2E3B4A;
+}
