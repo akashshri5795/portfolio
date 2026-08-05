@@ -6,9 +6,11 @@ export const profile = {
   email: "shrivastava5795@gmail.com",
   phone: "+91-9161492606",
   links: {
-    github: "https://github.com/",
-    linkedin: "https://linkedin.com/",
-    hackerrank: "https://hackerrank.com/",
+    github: "https://github.com/akashshri5795",
+    linkedin: "https://www.linkedin.com/in/akash-shrivastava-dev/",
+    hackerrank: "https://www.hackerrank.com/profile/shrivastava5795",
+    leetcode: "https://leetcode.com/u/ShriAkash/",
+    website: "https://oonoo.in/",
   },
 };
 
