@@ -1,73 +1,55 @@
-# Akash Srivastava — Portfolio
+# Akash Shrivastava — Portfolio
 
-A personal portfolio site built with React, Vite, and Tailwind CSS.
+Personal developer portfolio built with React, Vite, and Tailwind CSS.
 
-## Run it locally
+The portfolio showcases my software engineering experience, technical
+skills, selected projects, and professional work across full-stack,
+backend, mobile, and modern application development.
 
-```bash
-npm install
-npm run dev
-```
+## 🌐 Live Portfolio
 
-Opens at `http://localhost:5173`.
+Visit the live portfolio:
 
-## Edit your content
+**https://akashshri5795.github.io/portfolio/**
 
-Everything on the page — name, bio, skills, work experience, projects, contact
-info — lives in one file:
+---
 
-```
-src/data.js
-```
+## ✨ Highlights
 
-Update that file and the whole site updates. You don't need to touch any
-component files unless you want to change layout or styling.
+- Professional developer portfolio
+- Responsive UI for desktop and mobile
+- Project showcase
+- Technical skills and experience
+- Social/profile links
+- Modern React-based frontend
+- Optimized Vite development workflow
+- GitHub Pages deployment
 
-## Deploy to GitHub Pages
+---
 
-You have two options. **Option A is recommended** — it redeploys automatically
-every time you push to `main`.
+## 🛠️ Tech Stack
 
-### Option A: GitHub Actions (automatic)
+- React
+- JavaScript
+- Vite
+- Tailwind CSS
+- HTML
+- CSS
+- GitHub Pages
 
-1. Create a new repository on GitHub (e.g. `portfolio`) and push this project to it:
+---
 
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial portfolio"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/<your-repo>.git
-   git push -u origin main
-   ```
+## 📁 Project Structure
 
-2. On GitHub, go to your repo → **Settings → Pages**.
-3. Under **Build and deployment → Source**, choose **GitHub Actions**.
-4. That's it. The workflow in `.github/workflows/deploy.yml` will build and
-   publish the site automatically. Check the **Actions** tab to watch it run.
-5. Your site will be live at:
-   `https://<your-username>.github.io/<your-repo>/`
-
-Every future `git push` to `main` redeploys the site automatically.
-
-### Option B: `gh-pages` package (manual)
-
-1. Push the project to a GitHub repo (same as step 1 above).
-2. Run:
-
-   ```bash
-   npm run deploy
-   ```
-
-   This builds the site and pushes the `dist` folder to a `gh-pages` branch.
-3. On GitHub, go to **Settings → Pages** → set **Source** to the `gh-pages`
-   branch.
-4. Your site will be live at the same URL as above within a minute or two.
-
-## Notes
-
-- `vite.config.js` uses `base: "./"` (relative asset paths), so the site
-  works correctly whether it's served at `username.github.io/` directly or
-  at `username.github.io/repo-name/` — no config changes needed either way.
-- Colors, fonts, and animation tokens are defined in `tailwind.config.js` if
-  you want to adjust the palette later.
+```text
+portfolio/
+├── .github/
+│   └── workflows/       # GitHub Actions workflows
+│
+├── src/                 # React application source
+├── public/              # Public assets
+├── index.html           # Application entry point
+├── package.json         # Dependencies and scripts
+├── vite.config.js       # Vite configuration
+├── tailwind.config.js   # Tailwind configuration
+└── postcss.config.js    # PostCSS configuration
